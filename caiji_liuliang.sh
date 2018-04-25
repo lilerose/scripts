@@ -1,12 +1,4 @@
 #!/bin/bash
-##########################################
-#  用途：采集机器带宽
-#  作者：hzy
-#  日期：2013-10-31
-##########################################
-#2015-03-30 增加packets采集
-#2015-05-21 适应大矿机用户机器,增加对多IP支持
-#2015-10-09 考虑网卡异常情况，设置最多3倍设置带宽
 export PATH="/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/home/root1/bin"
 
 HOST=`hostname`
